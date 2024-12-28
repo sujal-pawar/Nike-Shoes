@@ -52,6 +52,10 @@
     @apply sm:pb-24 pb-12;
   }
 
+  .card{
+    @apply bg-white shadow-lg rounded-lg;
+  }
+
   .info-text {
     @apply font-montserrat text-slate-gray text-lg leading-7;
   }

@@ -15,7 +15,7 @@ const Nav = () => {
         <>
             <header className='padding-x absolute py-4 z-50 w-full bg-transparent'>
                 <nav className='flex justify-between items-center max-container'>
-                    <a href="/" className='left-0'>
+                    <a href="#home" className='left-0'>
                         <img src={headerLogo} alt="Logo" width={70} height={29} className="m-2" />
                     </a>
 

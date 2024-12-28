@@ -48,7 +48,7 @@ const Nav = () => {
                         <ul className='flex flex-col mt-10 justify-start p-4'>
                             {navLinks.map((item) => (
                                 <li key={item.label} className='m-5'>
-                                    <a href={item.href} className='asidebar'>
+                                    <a href={item.href} className='asidebar text-black hover:text-slate-gray text-2xl font-palanquin font-bold'>
                                         {item.label}
                                     </a>
                                 </li>

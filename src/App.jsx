@@ -3,11 +3,17 @@ import { PopularProducts ,
   SuperQuality,Subscribe,Footer,Hero } from './sections';
 
 import Nav from './components/Nav';
+import Hero1 from './sections/Hero1';
 
 const App = () => {
   return (
     <main className="relative">
+      <section className="top-0 z-50">
       <Nav/>
+      </section>
+      <section className="padding-b">
+        <Hero1/>
+      </section>
       <section className="xl:padding-l wide:padding-r padding-b">
         <Hero/>
       </section>

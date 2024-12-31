@@ -16,7 +16,7 @@ const Hero = () => {
 
   return (
     <section
-    id='home'
+    id='hero'
     className='w-full flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container'>
       <div className='relative xl:w-2/5 flex flex-col max-xl:padding-x '>
       <h1 className='font-palanquin mt-10 text-8xl max-sm:text-[72px] font-bold max-sm:leading-[82px]'>

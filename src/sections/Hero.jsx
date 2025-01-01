@@ -42,8 +42,8 @@ const Hero = () => {
 
       <div className='relative flex-1 flex xl:min-h-screen max-xl:py-40 bg-cover justify-center items-center'>
         
-        <img src={bigShoeImg} alt="Shoe collection" width={610} height={500}
-        className='object-contain z-10 relative p-5' />
+        <img src={bigShoeImg} alt="Shoe collection" width={600} height={500}
+        className='object-contain z-10 relative pb-14 inline-block ' />
 
         <div className='flex sm:gap-6 gap-4 absolute sm:-bottom-[12%] max-sm:-bottom-[5%] max-sm:px-6'>
           {shoes.map((shoe)=>(

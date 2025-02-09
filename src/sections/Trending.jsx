@@ -1,6 +1,6 @@
 import React from "react";
 import Trending1 from '../assets/images/Trending1.png';
-import Trending2 from '../assets/images/Trending1.png';
+import Trending2 from '../assets/images/Trending2.png';
 
 const TrendingSection = () => {
     return (

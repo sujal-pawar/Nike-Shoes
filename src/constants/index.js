@@ -99,7 +99,7 @@ export const footerLinks = [
 ];
 
 export const socialMedia = [
-    { src: facebook, alt: "facebook logo" },
-    { src: twitter, alt: "twitter logo" },
-    { src: instagram, alt: "instagram logo" },
+    { src: facebook, link:"https://www.facebook.com/nike",alt: "facebook logo" },
+    { src: twitter,  link:"https://x.com/Nike?mx=2",alt: "twitter logo" },
+    { src: instagram,link:"https://www.instagram.com/nike/", alt: "instagram logo" },
 ];

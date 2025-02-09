@@ -28,7 +28,7 @@ const App = () => {
         <TrendingSection/>
       </section>
       
-      <section className="sm:px-16 px-8 sm:py-18 py-16">
+      <section className="sm:px-16 px-8 sm:py-18 pb-16">
       <SuperQuality/>
       </section>
 

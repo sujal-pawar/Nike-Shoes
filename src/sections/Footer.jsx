@@ -9,7 +9,7 @@ const footer = () => {
     <footer className='max-container'>
       <div className='flex justify-between items-start gap-20 flex-wrap max-lg:flex-col'>
         <div className='flex flex-col items-start'>
-          <a href="#home">
+        <a href="#home">
             <img src={footerLogo} alt="footerlogo" 
             width={150}
             height={46}/>
@@ -19,7 +19,7 @@ const footer = () => {
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map((icon)=>(
               <div className='flex justify-center items-center w-12 h-12 bg-white rounded-full'>
-                <img src={icon.src} alt={icon.alt} width={24} height={24}/>
+                <a href={icon.link} target='new'><img src={icon.src} alt={icon.alt} width={24} height={24}/></a>
               </div>
             ))}
           </div>
@@ -32,7 +32,7 @@ const footer = () => {
                   <ul>
                     {section.links.map((link)=>(
                       <li key={link.name}  className='mt-3 font-montserrat text-base leading-normal'>
-                        <a href="/" className=' hover:text-slate-gray cursor-pointer text-white-400'>{link.name}</a>
+                        <a href={link.name} className=' hover:text-slate-gray cursor-pointer text-white-400'>{link.name}</a>
                       </li>
                     ))}
                   </ul>

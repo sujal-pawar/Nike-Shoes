@@ -1,4 +1,6 @@
 import React from "react";
+import Trending1 from '../assets/images/Trending1.png';
+import Trending2 from '../assets/images/Trending1.png';
 
 const TrendingSection = () => {
     return (
@@ -6,22 +8,17 @@ const TrendingSection = () => {
             <div className="max-w-7xl mx-auto">
                 <h1 className="text-2xl font-semibold mb-6">Trending</h1>
                 <div className="grid grid-cols-1 lg:grid-cols-2">
-                    
-                    <div className="flex items-center justify-center bg-red-500 overflow-hidden">
-                        <img
-                            src="src/sections/Trending1.png"
-                            alt="People"
-                            className="w-full h-auto object-cover"
-                        />
-                    </div>
-                    
-                    <div className="flex items-center justify-center bg-red-500 overflow-hidden">
-                        <img
-                            src="src/sections/Trending2.png"
-                            alt="Shoes"
-                            className="w-full h-auto object-cover"
-                        />
-                    </div>
+                    <img
+                        src={Trending1}
+                        alt="People"
+                        className="w-full h-auto object-cover"
+                    />
+                    <img
+                        src={Trending2}
+                        alt="Shoes"
+                        className="w-full h-auto object-cover"
+                    />
+                </div>
                 </div>
                 <div className='flex flex-col justify-center sm:leading-[0.9] sm:m-7 items-center max-sm:items-start max-sm:justify-start max-sm:px-2'>
                     <p className='text-[18px] sm:pb-3 max-sm:pt-4 sm:text-center'>Jordan Spizike</p>
@@ -35,7 +32,7 @@ const TrendingSection = () => {
                         </button></div>
                 </div>
             </div>
-        </div>
+   
     );
 };
 

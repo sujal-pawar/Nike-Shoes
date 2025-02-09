@@ -1,5 +1,4 @@
 import React from 'react'
-import Button from '../components/Button';
 
 const Hero1 = () => {
     return (
@@ -13,7 +12,7 @@ const Hero1 = () => {
                     <span className='text-[12px] underline'>Join Us</span></p>
                 </div>
                 <div>
-                    <img src="src/sections/nikehero.jpg" alt="Shoe collection" width={1165} height={500}
+                    <img src="src/assets/images/nikehero.jpg" alt="Shoe collection" width={1165} height={500}
                         className='object-contain z-10 relative max-sm:p-3' />
                 </div>
                 <div className='flex flex-col justify-center sm:m-7 items-center max-sm:items-start max-sm:justify-start max-sm:px-6'>

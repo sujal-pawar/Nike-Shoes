@@ -1,9 +1,9 @@
 import React from 'react'
-import { arrowRight } from '../assets/icons';
 import Button from '../components/Button';
 import { shoe8 } from '../assets/images';
+import superQuality from '../assets/images/SuperQuality.jpg';
 
-const superQuality = () => {
+const SuperQuality = () => {
   return (
     <section
       id='about-us'
@@ -27,8 +27,7 @@ const superQuality = () => {
       </div>
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src="src/sections/SuperQuality.jpg"
-          alt='product detail'
+          src={superQuality}
           width={480}
           height={500}
           className='object-contain rounded'
@@ -38,4 +37,4 @@ const superQuality = () => {
   )
 }
 
-export default superQuality;
+export default SuperQuality;

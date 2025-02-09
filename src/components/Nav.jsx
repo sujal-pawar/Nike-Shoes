@@ -16,7 +16,7 @@ const Nav = () => {
             <header className='padding-x py-4 z-50 w-full bg-transparent'>
                 <nav className='flex justify-between items-center max-container'>
                     <a href="#home" className='left-0'>
-                        <img src={headerLogo} alt="Logo" width={70} height={29} className="m-2" />
+                        <h1 className='text-3xl font-palanquin font-extrabold '>Step <span className='text-red-700'>Up</span> </h1>
                     </a>
 
                     <ul className='flex-1 flex justify-center items-center gap-16 max-md:hidden'>

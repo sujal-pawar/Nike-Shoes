@@ -1,6 +1,4 @@
 import React from 'react'
-import Button from '../components/Button';
-import { arrowRight } from '../assets/icons';
 import { shoes, statistics } from '../constants';
 import { bigShoe2 } from '../assets/images';
 import ShoeCard from '../components/ShoeCard';
@@ -24,10 +22,7 @@ const Hero = () => {
       <span className='text-[#95582C] inline-block mt-3'>Nike</span> Shoes
       </h1>
       <p className='font-montserrat text-slate-gray text-lg leading-8 mt-6 mb-14 sm:max-w-sm'>Dicover Stylish Nike arrivals, quality comfort, and  innovation for your active life </p>
-      {/* <div className='max-sm:w-[50%]'>
-      <Button label="Shop now"
-      iconURL={arrowRight}
-      /></div> */}
+      
 
       <div className='flex justify-start items-start flex-wrap w-full mt-8 gap-16'>
       {statistics.map((stat,index)=>(
@@ -46,8 +41,8 @@ const Hero = () => {
         className='object-contain z-10 relative pb-14 inline-block ' />
 
         <div className='flex sm:gap-6 gap-4 absolute sm:-bottom-[12%] max-sm:-bottom-[5%] max-sm:px-6'>
-          {shoes.map((shoe)=>(
-            <div>
+          {shoes.map((shoe, index) => (
+            <div key={index}>
               <ShoeCard
               imgURL={shoe} changeBigShoeImage={(shoe)=> changeBigShoeImage(shoe)} bigShoeImg={bigShoeImg}
               />

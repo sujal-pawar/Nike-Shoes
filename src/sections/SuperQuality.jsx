@@ -27,7 +27,7 @@ const superQuality = () => {
       </div>
       <div className='flex-1 flex justify-center items-center'>
         <img
-          src="src\assets\images\SuperQuality.jpg"
+          src="src/sections/SuperQuality.jpg"
           alt='product detail'
           width={480}
           height={500}

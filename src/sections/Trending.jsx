@@ -9,7 +9,7 @@ const TrendingSection = () => {
                     
                     <div className="flex items-center justify-center bg-red-500 overflow-hidden">
                         <img
-                            src="src\assets\images\Trending1.png"
+                            src="src/sections/Trending1.png"
                             alt="People"
                             className="w-full h-auto object-cover"
                         />
@@ -17,7 +17,7 @@ const TrendingSection = () => {
                     
                     <div className="flex items-center justify-center bg-red-500 overflow-hidden">
                         <img
-                            src="src\assets\images\Trending2.png"
+                            src="src/sections/Trending2.png"
                             alt="Shoes"
                             className="w-full h-auto object-cover"
                         />
